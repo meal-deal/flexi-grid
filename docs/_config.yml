@@ -1,0 +1,20 @@
+# markdown adn highlighter
+markdown:    kramdown
+highlighter: rouge
+
+# permalinks
+permalink:  pretty
+
+# Server
+baseurl:    /
+
+# Custom variables
+version:    v1.3.6
+cdn:        https://unpkg.com/flexi-grid
+repo:       https://github.com/pr1mer-tech/flexi-grid
+download:   https://github.com/pr1mer-tech/flexi-grid/releases/download/v1.3.6/flexi-grid.min.css
+docs:       https://github.com/pr1mer-tech/flexi-grid/wiki
+stargazers: https://github.com/pr1mer-tech/flexi-grid/stargazers
+
+npm:        https://npmjs.com/package/flexi-grid
+author:

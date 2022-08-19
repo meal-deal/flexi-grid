@@ -1,0 +1,105 @@
+---
+layout: html
+title: Flexi Grid System
+description: A simple flexbox grid system. Made by hot-meal
+---
+
+
+
+<!-- Header -->
+
+<header>
+
+  <div class="header-content">
+
+    <!-- This div is needed to ensure that the content is centered -->
+    <img src="{{site.baseurl}}/img/flexi-logo-white.svg" alt="Waffle logo"/>
+
+    <h1 class="title">Flexi Grid</h1>
+
+    <p>A simple flexbox grid system.</p>
+    <p class="small">Made by <a href="https://github.com/@hot-meal">@hot-meal</a></p>
+
+  </div>
+
+</header>
+
+<!-- Main content -->
+
+<main>
+
+  <!-- Grid features -->
+
+  <section id="features">
+
+    <div class="grid">
+      <div class="row">
+        <div class="col column-4-of-12 column-m-4-of-4">
+
+          <img src="{{site.baseurl}}/img/icon-feather.svg" alt="Feather icon"/>
+          <h2>Light weight</h2>
+          <p>The Flexi Grid system is very lightweight, at only ~<span class="kb">7</span>kb minified using default settings.</p>
+
+        </div>
+        <div class="col column-4-of-12 column-m-4-of-4">
+
+          <img src="{{site.baseurl}}/img/icon-phone.svg" alt="Phone icon"/>
+          <h2>Responsive</h2>
+          <p>Classes for medium and small devices, the Flexi Grid can easily make your layouts responsive.</p>
+
+        </div>
+        <div class="col column-4-of-12 column-m-4-of-4">
+
+          <img src="{{site.baseurl}}/img/icon-sliders.svg" alt="Sliders icon"/>
+          <h2>Customisable</h2>
+          <p>The Flexi Grid system is written entirely in <a href="http://sass-lang.com/">sass</a>, so you can easily modify or customize the grid to suit your needs.</p>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Download call to action -->
+
+  <section id="download-cta">
+
+    <div class="grid">
+      <div class="row">
+        <div class="col w-auto"></div>
+        <div class="col column-5-of-12 column-m-4-of-4">
+          <a href="{{site.download}}" class="btn">
+            Download {{site.version}}
+          </a>
+        </div>
+
+        <div class="col w-auto"></div>
+
+        <div class="col column-5-of-12 column-m-4-of-4">
+          <a href="{{site.stargazers}}" class="btn inverted">
+            Star on GitHub
+          </a>
+        </div>
+        <div class="col w-auto"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Grid example -->
+
+  <section id="grid-example">
+    {% include example.html %}
+  </section>
+
+  <!-- Docs call to action -->
+
+  <section id="docs-cta">
+    <a href="{{site.docs}}" class="btn">Read the docs</a>
+  </section>
+
+</main>
+
+<div class="gist js-activated">
+  <div class="gist-meta"><a>All code</a> hosted by <a href="https://github.com">GitHub</a></div>
+</div>

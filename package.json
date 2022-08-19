@@ -1,0 +1,30 @@
+{
+  "name": "flexi-grid",
+  "version": "1.3.6",
+  "description": "A simple flexbox grid system",
+  "main": "dist/flexi-grid.min.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hot-meal/flexi-grid"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp build"
+  },
+  "keywords": [
+    "flexbox",
+    "grid",
+    "css"
+  ],
+  "author": "hot-meal",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-cssbeautify": "^0.1.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^2.1.0"
+  }
+}

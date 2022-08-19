@@ -1,0 +1,22 @@
+{
+  "name": "flexi-grid",
+  "description": "A simple flexbox grid system",
+  "main": "dist/flexi-grid.min.css",
+  "authors": [
+    "hot-meal"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "flexbox",
+    "grid",
+    "css"
+  ],
+  "homepage": "https://github.com/@hot-meal/flexi-grid",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
